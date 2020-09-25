@@ -3,4 +3,4 @@ A project that was created in 2016 to depict the number of mass shootings that c
 
 ## Running
 
-To run locally, cd into the project directory and run `python -m http.server <PORT_NUMBER.`
+To run locally, cd into the project directory and run `python -m http.server <PORT_NUMBER>`
