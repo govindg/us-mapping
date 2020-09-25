@@ -1,0 +1,48 @@
+/* You'll probably want to add some styles here */
+#map-container {
+	height:500px;
+}
+
+/* Work around for clashing materialize and leaflet styles */
+input[type="checkbox"].leaflet-control-layers-selector,
+input[type="radio"].leaflet-control-layers-selector {
+    position:relative;
+    opacity:1;
+    left:0px;
+}
+
+label > span {
+    color:black;
+}
+
+#injured, #killed {
+	font-weight: bold;
+}
+
+#killed {
+	color: red;
+}
+
+#state {
+	font-weight: bold;
+}
+
+header {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 0.25rem;
+	background-color: #ff6666;
+	color: white;
+	margin-bottom: 1.5rem;
+	box-shadow: 2px 2px 2px grey;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+h1 {
+   font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   margin: 0;
+}
